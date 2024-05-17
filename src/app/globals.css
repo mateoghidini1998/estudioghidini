@@ -18,12 +18,11 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  
+}
+
+.polygon {
+  clip-path: polygon(60% 0px, 100% 0%, 100% 100%, 46% 100%);
 }
 
 @layer utilities {
